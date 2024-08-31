@@ -1,4 +1,22 @@
 {
-  "prettier.singleQuote": true,
-  "prettier.semi": true
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "trailingComma": "es5",
+  "bracketSameLine": false,
+  "endOfLine": "auto",
+  "printWidth": 80,
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "singleQuote": true,
+        "printWidth": 80
+      }
+    }
+  ]
 }
